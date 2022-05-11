@@ -11,21 +11,32 @@ a{
     display: flex;
 }
 
+img{
+    max-width: 100%;
+
+}
+
      /* HEADER */ 
 
 
-nav{
+nav {
     background-color: #ff6900;
     color: whitesmoke;
-    position: fixed;
+    width: 100%;
+
+    
 }
 
 .top{
     justify-content: space-between;
-    width: 70%;
     margin: auto;
-    padding: 10px;
+    width: 70%;
+    padding: 10px; 
     align-items: center;
+    /* position: fixed; */
+    top: 0%;
+    background-color: #ff6900; 
+    
 }
 
 .top img{
@@ -42,3 +53,74 @@ nav{
 .t-right i{
     margin: 2px;
 }
+
+/* MAIN */
+
+.hero{
+    margin: auto;
+    width: 70%;
+    padding-top: 30px;
+    background-color: aquamarine;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    flex-basis: 25%;
+    /* margin: 15px; */
+    
+}
+
+.model{
+    position: relative;
+}
+
+.like{
+    background-color: whitesmoke;
+    width: 40px;
+    height: 40px;
+    position:absolute;
+    top:5px;
+    right: 0;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    z-index: 2;
+}
+
+.sale{
+    background-color: red;
+    padding: 5px;
+    position: absolute;
+    bottom:20px;
+    left: 0;
+    color: white;
+    z-index: 2;
+}
+
+.green-tag{
+    position: absolute;
+    left:50px;
+    bottom:20px;
+    background-color: green;
+    padding: 5px;
+    color: white;
+    z-index: 2;
+}
+
+/* Hover change  */
+.img-clear:hover{
+    position:absolute;
+    z-index: -1;
+}
+.img-hover{
+    position:absolute;
+    z-index: -1;
+    left: 0;
+    top: 0;
+}
+
+.img-hover:hover{  
+    z-index: 1;
+}
+
