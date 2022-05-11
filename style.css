@@ -16,6 +16,10 @@ img{
 
 }
 
+h2{
+    font-size: 20px;
+}
+
      /* HEADER */ 
 
 
@@ -108,6 +112,18 @@ nav {
     z-index: 2;
 }
 
+.brand {
+    font-size: 14px;
+}
+
+.price{
+    color:red;
+}
+
+.old-price{
+   text-decoration: line-through; 
+}
+
 /* Hover change  */
 .img-clear:hover{
     position:absolute;
@@ -124,3 +140,25 @@ nav {
     z-index: 1;
 }
 
+/* Footer */
+footer{
+    width: 100%;
+    background-color: #1a1a1a;
+}
+
+.bottom-footer{
+    margin: auto;
+    width: 70%;
+    padding: 30px 10px 10px 10px;
+    justify-content: space-between;
+    color: whitesmoke;
+}
+
+.f-right span{
+    display: block;
+    text-align: center;
+}
+
+.f-right i{
+    margin: 5px;
+}
