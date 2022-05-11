@@ -1,12 +1,16 @@
 *{
     margin:0;
     padding: 0;
+    
 }
 
 a{
     text-decoration: none;
 }
 
+a:hover{
+    text-decoration: underline;
+}
 .container{
     display: flex;
 }
@@ -159,11 +163,13 @@ footer{
 .bottom-footer{
     margin: auto;
     width: 70%;
-    padding: 30px 10px 10px 10px;
+    padding: 25px 10px 20px 10px;
     justify-content: space-between;
     color: whitesmoke;
 }
-
+.f-left h3{
+    margin-bottom: 10px;
+}
 .f-right span{
     display: block;
     text-align: center;
