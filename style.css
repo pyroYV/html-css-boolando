@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding: 0;
-    
+
 }
 
 a{
@@ -31,8 +31,8 @@ nav {
     background-color: #ff6900;
     color: whitesmoke;
     width: 100%;
-
-    
+    z-index: 3;
+    position: fixed;    
 }
 
 .top{
@@ -42,7 +42,7 @@ nav {
     padding: 10px; 
     align-items: center;
     /* position: fixed; */
-    top: 0%;
+    top: 0;
     background-color: #ff6900; 
     
     
@@ -68,9 +68,11 @@ nav {
 .hero{
     margin: auto;
     width: 70%;
-    padding-top: 30px;
+    padding-top: 120px;
+    padding-bottom: 60px;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
 
 .card{
