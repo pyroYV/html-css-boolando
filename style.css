@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+}
+
+     /* HEADER */ 
+
+
+nav{
+    background-color: #ff6900;
+    color: whitesmoke;
+    position: fixed;
+}
+
+.top{
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+}
+
+.top img{
+    height: 40px;
+}
+
+.t-left a{
+ color: whitesmoke;
+ font-weight: 800;
+ margin: 2px;
+
+}
+
+.t-right i{
+    margin: 2px;
+}
